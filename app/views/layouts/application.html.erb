@@ -40,8 +40,11 @@
           </ul>
         </div>
       </div>
+      <div class="container">
+        <%= render partial: "weather/show" %>
+      </div>
     </nav>
-      
+
     <div class="container my-5">
       <% flash.each do |type, msg| %>
         <%= tag.div msg, class: "alert alert-#{type == 'alert' ? 'danger' : 'success'}" %>

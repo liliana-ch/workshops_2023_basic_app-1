@@ -1,8 +1,11 @@
 class WeatherPresenter
+  def intialize
+  end
 
   def weather_data
-    @weather_data ||= WeatherApiConnector.new.weather_data
+   @weather_data ||= WeatherApiConnector.new.weather_data
   end
+
   def description
     weather_data.dig("current","condition","text")
   end

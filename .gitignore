@@ -29,6 +29,9 @@
 !/tmp/storage/
 !/tmp/storage/.keep
 
+# Ignore personal configuration
+/config/configuration.yml
+
 /public/assets
 
 # Ignore master key for decrypting credentials and more.

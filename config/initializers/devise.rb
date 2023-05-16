@@ -303,6 +303,8 @@ Devise.setup do |config|
   config.responder.error_status = :unprocessable_entity
   config.responder.redirect_status = :see_other
 
+  config.omniauth :google_oauth2, A9n.google_client_id, A9n.google_client_secret, {}
+
   # ==> Configuration for :registerable
 
   # When set to false, does not sign a user in automatically after their password is

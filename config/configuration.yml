@@ -1,0 +1,4 @@
+defaults:
+  google_client_id: '632044697246-19uq9lma9c0ifj508v6d7eptudvdf826.apps.googleusercontent.com'
+  google_client_secret: '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'
+  app_host: 'http://localhost:3000'

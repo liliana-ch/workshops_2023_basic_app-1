@@ -24,3 +24,10 @@ RSpec/NestedGroups:
 
 Metrics/AbcSize:
   CountRepeatedAttributes: false
+
+RSpec/ExampleLength:
+  Exclude:
+    - 'spec/features/**/*'
+
+RSpec/AnyInstance:
+  Enabled: false
